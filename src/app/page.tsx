@@ -11,16 +11,17 @@ export default function Index() {
       backgroundSize="cover"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
+      p={"52px"}
     >
       <Flex
-        w="100%"
-        h="100%"
+        w="full"
+        h="full"
         p="52px"
-        bg="rgba(255, 255, 255, 0.1)" // Semi-transparent white background
-        borderRadius="16px" // Rounded corners for a modern look
-        boxShadow="0 4px 30px rgba(0, 0, 0, 0.1)" // Subtle shadow for depth
-        backdropFilter="blur(10px)" // Glass effect through background blur
-        border="1px solid rgba(255, 255, 255, 0.3)" // Transparent border for the glass look
+        bg="rgba(255, 255, 255, 0.1)"
+        borderRadius="16px"
+        boxShadow="0 4px 30px rgba(0, 0, 0, 0.1)"
+        backdropFilter="blur(2px)" 
+        border="1px solid rgba(255, 255, 255, 0.1)"
       >
         {/* Add content here */}
       </Flex>
