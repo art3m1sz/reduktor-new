@@ -36,12 +36,12 @@ export default function Index() {
                 w="full"
                 h="full"
                 p="24px"
-                bg="rgba(0, 255, 255, 0.1)"
+                bg="rgba(11, 143, 204, 0.3)"
                 borderRadius="16px"
                 boxShadow="0 4px 30px rgba(31, 38, 135, 0.37)"
                 backdropFilter="blur(1px)"
                 border="1px solid rgba(255, 255, 255, 0.18)"
-                gap={"24px"}>
+                gap={"18px"}>
                 <Flex w={"full"} h={"full"} direction={"column"} gap={"18px"}>
                     <Flex w={"full"} h={"156px"} gap={"24px"}>
                         <Flex w={"fit-content"} h={"full"}>
@@ -121,128 +121,145 @@ export default function Index() {
                             </Flex>
                         </Flex>
                     </Flex>
+                    <Flex position={"relative"} w={"full"} h={"90%"} gap={"18px"}>
+                        <Flex
+                            w={"full"}
+                            h={"90%"}
+                            bg="rgba(0, 0, 0, 0.45)"
+                            backdropFilter="blur(5px)"
+                            boxShadow="0 4px 15px rgba(0, 0, 0, 0.2)"
+                            rounded={"20px"}
+                            p={"12px"}
+                            direction={"column"}
+                            gap={"8px"}>
+                            <Flex>
+                                <Text fontSize={"20px"} fontWeight={"semibold"}>
+                                    Tech Stack
+                                </Text>
+                            </Flex>
+                            <Flex wrap={"wrap"} gap={"14px"}>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <FaHtml5></FaHtml5>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <IoLogoCss3></IoLogoCss3>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <IoLogoJavascript></IoLogoJavascript>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <RiTailwindCssFill></RiTailwindCssFill>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <TbSql></TbSql>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <FaJava></FaJava>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <RiPhpFill></RiPhpFill>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <FaLaravel></FaLaravel>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <FaReact></FaReact>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <SiNextdotjs></SiNextdotjs>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <SiChakraui></SiChakraui>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <FaFigma></FaFigma>
+                                </IconButton>
+                                <IconButton
+                                    size={"xl"}
+                                    rounded={"full"}
+                                    variant={"outline"}
+                                    border={"1px solid white"}>
+                                    <SiPostman></SiPostman>
+                                </IconButton>
+                            </Flex>
+                        </Flex>
+                        <Flex
+                        w={"30%"}
+                        h={"110%"}
+                        bg="rgba(0, 0, 0, 0.45)"
+                        backdropFilter="blur(5px)"
+                        boxShadow="0 4px 15px rgba(0, 0, 0, 0.2)"
+                        rounded={"20px"}
+                        p={"12px"}
+                        mt={"-42px"}
+                        direction={"column"}
+                        gap={"8px"}
+                        justifyContent={"center"}
+                        alignItems={"center"}
+                        >
+                            <Text fontWeight={"semibold"} fontStyle={"italic"}>The only true wisdom is in knowing you know nothing.</Text>
+                            <Text fontWeight={"semibold"} fontStyle={"italic"}>- Socrates</Text>
+                        </Flex>
+                    </Flex>
+
                     <Flex
                         w={"full"}
-                        h={"45%"}
+                        h={"30%"}
                         bg="rgba(0, 0, 0, 0.45)"
                         backdropFilter="blur(5px)"
                         boxShadow="0 4px 15px rgba(0, 0, 0, 0.2)"
                         rounded={"20px"}
                         p={"12px"}
                         direction={"column"}
-                        gap={"8px"}>
-                        <Flex>
-                            <Text fontSize={"20px"} fontWeight={"semibold"}>
-                                Tech Stack
-                            </Text>
-                        </Flex>
-                        <Flex wrap={"wrap"} gap={"14px"}>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <FaHtml5></FaHtml5>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <IoLogoCss3></IoLogoCss3>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <IoLogoJavascript></IoLogoJavascript>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <RiTailwindCssFill></RiTailwindCssFill>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <TbSql></TbSql>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <FaJava></FaJava>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <RiPhpFill></RiPhpFill>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <FaLaravel></FaLaravel>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <FaReact></FaReact>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <SiNextdotjs></SiNextdotjs>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <SiChakraui></SiChakraui>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <FaFigma></FaFigma>
-                            </IconButton>
-                            <IconButton
-                                size={"xl"}
-                                rounded={"full"}
-                                variant={"outline"}
-                                border={"1px solid white"}
-                                >
-                                <SiPostman></SiPostman>
-                            </IconButton>
-                        </Flex>
-                    </Flex>
+                        gap={"8px"}></Flex>
                 </Flex>
 
                 <Flex
